@@ -1,11 +1,9 @@
-# clubWebsite
+# Club Templates
 Moorpark Enthusiastic Programmers Club website
 
 The purpose is to have a website for the club for easy sign up, and easy access to more club information and announcments.
 We.Love.Hackathons.
 
-
-Link to website: https://epclub.pythonanywhere.com/
 
 ## Setting up a development environment
 
