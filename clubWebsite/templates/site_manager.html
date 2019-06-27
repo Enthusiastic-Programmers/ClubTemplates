@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block main %}    
+<form method="POST">
+    <input type="submit" value="Add page" name="action" value="add_page">
+    <ol>
+        {% for page in pages %}
+            <li>
+                <a href="{{ page.url }}">{{ page.name }}</a>
+                <input type="submit" value="Edit" name="action" value="edit_page">
+                <input type="submit" value="Remove" name="action" value="remove_page">
+                <input type="hidden" name="page_id" value="{{page.id}}">
+            </li>
+        {% endfor %}
+    </ol>
+</form>
+{% endblock %}

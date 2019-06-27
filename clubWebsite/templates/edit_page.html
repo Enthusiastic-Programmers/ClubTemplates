@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block main %}    
+<form method="POST">
+    <textarea name="page_markup">
+        {{ page_markup }}
+    </textarea>
+    <input type="submit" value="Save" name="action" value="save_page">
+</form>
+{% endblock %}
